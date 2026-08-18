@@ -78,9 +78,7 @@ export default function PaginaClase() {
           <h1 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-2">
             {lesson.title}
           </h1>
-          {lesson.book_chapters && (
-            <p className="text-slate-500 font-medium">Lectura: {lesson.book_chapters}</p>
-          )}
+      
         </header>
 
         {/* BARRA DE HERRAMIENTAS: Selector de página y Botón de Tareas */}
