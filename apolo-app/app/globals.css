@@ -1,4 +1,9 @@
 @import "tailwindcss";
+
+/* Le enseñamos a Tailwind a obedecer al botón del modo oscuro */
+@custom-variant dark (&:is(.dark *));
+
+/* ... acá abajo sigue tu bloque @theme con tus colores institucionales ... */
 @plugin "@tailwindcss/typography";
 
 :root {
